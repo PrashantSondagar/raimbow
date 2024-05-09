@@ -1,0 +1,219 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Adjust height as needed */
+}
+
+.card {
+  background-color: rgb(64, 50, 102);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  color: #ffffff;
+}
+
+.form__input {
+  width: 100%;
+}
+
+.form__submit,
+.form__tran {
+  margin-top: 20px;
+  background: #037ef3;
+  color: #fff;
+  font-weight: 600;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  border: 0;
+  transition: all 0.8s;
+  font-size: 18px;
+}
+
+.form__submit:hover,
+.form__tran:hover {
+  background: #0271da;
+}
+
+.connect-button-container {
+  margin-top: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+  padding: 0 10px;
+  background-color: #6831de;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.wrapper {
+  color: #2c3e50;
+  padding: 2rem 2.5rem;
+}
+
+.container h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #ddd;
+  color: #2c3e50;
+}
+
+.container .from {
+  margin: 10px 0 10px 0;
+}
+
+.container .from p {
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.container form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0 15px;
+  background-color: transparent;
+  color: #2c3e50;
+  border: 0px solid #2c3e50;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.container from input:focus {
+  padding: 0 14px;
+  border: 1px solid #839192;
+}
+
+.container form .convert_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container form .from,
+.container form .to {
+  width: 100%;
+}
+
+.container .convert_box .select_input {
+  display: flex;
+  width: 100%;
+  border: 1px solid #2c3e50;
+  height: 40px;
+  align-items: center;
+  padding: 0 20px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.container .convert_box .select_input:hover {
+  border: 1px solid #2ecc71;
+}
+
+.container .convert_box .select_input img {
+  min-width: 20px;
+}
+
+.container .convert_box .select_input select {
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  background: none;
+  margin: 0 0 0 10px;
+  color: #2c3e50;
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+
+.container .convert_box .select_input select option {
+  color: #000;
+}
+
+.container .convert_box .reverse {
+  cursor: pointer;
+  margin-top: 32px;
+  font-size: 1.2rem;
+  transform: rotate(90deg);
+  transition: all 0.3s ease;
+}
+
+.container .convert_box .reverse:hover {
+  color: #2ecc71;
+}
+
+.container form .result {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.container button {
+  width: 100%;
+  height: 62px;
+  background-color: #de3163;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0 0 3px 3px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  border: none;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.container button:hover {
+  background-color: #c938bc;
+}
+  
+.select_input img{
+  height: 25px;
+  width: 30px;
+}
+.card-container{
+  margin: 20px 0px;
+}
+.card {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
