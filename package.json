@@ -23,7 +23,8 @@
     "util": "0.12.4",
     "viem": "^2.8.12",
     "wagmi": "^2.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3": "^4.8.0"
   },
   "scripts": {
     "dev": "react-scripts start",
